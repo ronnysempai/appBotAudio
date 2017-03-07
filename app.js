@@ -27,8 +27,8 @@ server.listen(process.env.port || process.env.PORT || 3978, () => {
 const connector = new builder.ChatConnector({
     /*appId: process.env.MICROSOFT_APP_ID,
     appPassword: process.env.MICROSOFT_APP_PASSWORD*/
-    appId: '0a68ab8a-61a7-4825-aab7-467998e3cc8d',//process.env.MICROSOFT_APP_ID,
-    appPassword: 'vUCVUbPdpLvm4FMNvFUvyAi'//process.env.MICROSOFT_APP_PASSWORD
+   appId: '661ed9ab-edf1-4d04-99a8-8eb99ec982dd',//process.env.MICROSOFT_APP_ID,
+    appPassword: 'HfytdoRJWjeubfuUkXzYEhV'//process.env.MICROSOFT_APP_PASSWORD
 });
 
 const bot = new builder.UniversalBot(connector);
